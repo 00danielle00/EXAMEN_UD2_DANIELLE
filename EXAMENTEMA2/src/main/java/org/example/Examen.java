@@ -11,6 +11,8 @@ public class Examen {
         Scanner teclado = new Scanner(System.in);
         Random aleatorio = new Random();
 
+        int numero = aleatorio.nextInt();
+
 
         int ronda =0;
         for (int i=0; i<3;i++){
@@ -18,7 +20,7 @@ public class Examen {
             System.out.println("Ronda "+(i+1));
             System.out.println("¿Piedra, papel o tijera? (p/a/t)");
             String opcion = teclado.next();
-            
+
         }
     }
     public void ejercicio2(){
